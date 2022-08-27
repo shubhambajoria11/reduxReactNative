@@ -30,7 +30,7 @@ const ComponentScreen = ({ navigation }) => {
           onChangeText={(enteredText) => {
             setValue(enteredText);
           }}
-          autoCapitalize={false}
+          autoCapitalize="none"
           autoCorrect={false}
         />
         <TouchableOpacity onPress={onHelloPress}>
